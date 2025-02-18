@@ -8,7 +8,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LocationPermission.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/CubeSpawner.unity
-    guid: b2e06dd92d199b04489fac6633b94004
   m_configObjects: {}

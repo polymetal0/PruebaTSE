@@ -26,7 +26,7 @@ public class CubeSpawner : MonoBehaviour
         if (cubeNr >= maxCubesOnScreen || cubeNr + transform.childCount > maxCubesOnScreen 
             || transform.childCount >= maxCubesOnScreen)
         {
-            Debug.LogWarning("Too many cubes at once. Limit is set to " + maxCubesOnScreen);
+            Debug.LogWarning("Too many cubes at once. Limit is set to " + maxCubesOnScreen.ToString());
             return;
         }
         for (int i = 0; i < cubeNr; i++)
